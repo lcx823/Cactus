@@ -1,10 +1,10 @@
 backend:
   name: github
-  branch: main # change this to your branch
-  repo: example/cactus # 1、change this to your repo
-  site_domain: example.com # 2、change this to your domain
-  base_url: https://example.com # 3、change this to your prod URL
-  auth_endpoint: oauth # the oauth route provided by the integration
+  branch: main # change this to your branch  
+  repo: lcx823/Cactus # 1、change this to your repo              
+  site_domain: cactus-gilt.vercel.app/# 2、change this to your domain                          
+  base_url: https://cactus-gilt.vercel.app/# 3、change this to your prod URL              
+  auth_endpoint: oauth # the oauth route provided by the integration      
 
 collections:
   - name: "note"
